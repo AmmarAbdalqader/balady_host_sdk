@@ -4,7 +4,7 @@ import 'package:flutter/services.dart';
 
 /// Permission manager for Mini Apps
 /// Replaces permission_handler package
-class HostPermissions {
+class BaladyPermissions {
   static MethodChannel get _channel => BaladyHostSDK.channel;
 
   /// Request permission

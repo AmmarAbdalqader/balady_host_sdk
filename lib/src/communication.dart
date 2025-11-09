@@ -2,7 +2,7 @@ import 'package:balady_host_sdk/src/balady_host_core.dart';
 import 'package:flutter/cupertino.dart';
 
 /// Communication helpers for Mini Apps
-class MiniAppCommunication {
+class BaladyCommunication {
   /// Get user information from SuperApp
   static Future<Map<String, dynamic>?> getUserInfo() async {
     try {
